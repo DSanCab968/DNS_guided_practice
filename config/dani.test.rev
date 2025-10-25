@@ -1,0 +1,10 @@
+$TTL 86400
+@   IN  SOA debian.dani.test. admin.dani.test. (
+                 20251025
+                 3600
+                 1800
+                 604800
+                 86400 )
+;
+@       IN  NS      debian.dani.test.
+10      IN  PTR     debian.dani.test.

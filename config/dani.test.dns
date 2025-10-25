@@ -1,0 +1,10 @@
+$TTL 86400
+@   IN  SOA debian.dani.test. admin.dani.test. (
+                 20251025    ; Serial (formato YYYYMMDDnn)
+                 3600
+                 1800
+                 604800
+                 86400 )
+;
+@       IN  NS      debian.dani.test.
+debian.dani.test. IN  A 192.168.56.10
